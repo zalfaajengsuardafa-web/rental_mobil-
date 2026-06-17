@@ -20,21 +20,21 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester Praktikum Pemrograman We
 - Redirect otomatis jika belum login
 - Halaman register untuk pelanggan baru
 
-### 📊 Manajemen Data (CRUD)
-- **Data Mobil** — tambah, lihat, edit, hapus armada kendaraan
-- **Data Pelanggan** — tambah, lihat, edit, hapus data pelanggan
-- **Data Transaksi** — catat, lihat, ubah status, hapus transaksi sewa
+### Manajemen Data (CRUD)
+- **Data Mobil** untuk tambah, lihat, edit, hapus armada kendaraan
+- **Data Pelanggan** untuk tambah, lihat, edit, hapus data pelanggan
+- **Data Transaksi** untuk catat, lihat, ubah status, hapus transaksi sewa
 
-### 🔍 Fitur Tambahan
+### Fitur Tambahan
 - Search / pencarian data real-time
 - Pagination sederhana
 - Validasi form dengan **JavaScript** (minimal 2 field per form)
 - Konfirmasi hapus dengan `confirm()`
-- Manipulasi DOM — pesan error inline
+- Manipulasi DOM pesan error inline
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Kategori | Teknologi |
 |----------|-----------|
@@ -44,40 +44,38 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester Praktikum Pemrograman We
 | Database | MySQL |
 | Tools | XAMPP / Laragon, phpMyAdmin, Git & GitHub |
 
----
+## Struktur Folder
 
-## 📁 Struktur Folder
+```text
 rental-mobil/
 ├── assets/
 │   ├── css/
-│   │   └── style.css          → CSS kustom tambahan
+│   │   └── style.css            → CSS kustom tambahan
 │   ├── js/
-│   │   ├── app.js             → Scroll, search, inisialisasi
-│   │   └── script.js          → Validasi form, confirm hapus, DOM
-│   └── img/                   → Gambar mobil & aset visual
+│   │   ├── app.js               → Scroll, search, inisialisasi
+│   │   └── script.js            → Validasi form, confirm hapus, DOM
+│   └── img/                     → Gambar mobil & aset visual
 ├── includes/
-│   ├── config.php             → Koneksi database (EXCLUDE dari git!)
-│   ├── header.php             → Navbar & head HTML
-│   ├── footer.php             → Footer HTML
-│   └── auth_check.php         → Cek session login
+│   ├── config.php               → Koneksi database (EXCLUDE dari git!)
+│   ├── header.php               → Navbar & head HTML
+│   ├── footer.php               → Footer HTML
+│   └── auth_check.php           → Cek session login
 ├── pages/
-│   ├── login.php              → Halaman login
-│   ├── register.php           → Halaman register
-│   ├── logout.php             → Proses logout
-│   ├── dashboard.php          → Dashboard admin/petugas
-│   ├── mobil.php              → CRUD data mobil
-│   ├── pelanggan.php          → CRUD data pelanggan
-│   ├── transaksi.php          → CRUD data transaksi
-│   ├── booking.php            → Form booking pelanggan
-│   └── laporan.php            → Laporan & statistik
-├── index.php                  → Halaman beranda (landing page)
-├── katalog.php                → Katalog mobil publik
-├── tentang.php                → Halaman tentang kami
-├── database.sql               → Export database MySQL (struktur + data)
-├── .gitignore                 → Exclude config.php & file sensitif
-└── README.md                  → Dokumentasi proyek ini
-
----
+│   ├── login.php                → Halaman login
+│   ├── register.php             → Halaman register
+│   ├── logout.php               → Proses logout
+│   ├── dashboard.php            → Dashboard admin/petugas
+│   ├── mobil.php                → CRUD data mobil
+│   ├── pelanggan.php            → CRUD data pelanggan
+│   ├── transaksi.php            → CRUD data transaksi
+│   ├── booking.php              → Form booking pelanggan
+│   └── laporan.php              → Laporan & statistik
+├── index.php                    → Halaman beranda (landing page)
+├── katalog.php                  → Katalog mobil publik
+├── tentang.php                  → Halaman tentang kami
+├── database.sql                 → Export database MySQL (struktur + data)
+├── .gitignore                   → Exclude config.php & file sensitif
+└── README.md                    → Dokumentasi proyek ini
 
 ## Cara Menjalankan Proyek
 
@@ -95,9 +93,9 @@ git clone https://github.com/zalfaajengsuardafa-web/rental_mobil-.git
 ### 3. Buat & Import Database
 
 1. Nyalakan Apache dan MySQL di XAMPP/Laragon
-2. Buka **phpMyAdmin** → `http://localhost/phpmyadmin`
-3. Klik **Import** → pilih file `database.sql`
-4. Klik **Go** — database `rental_mobil` dan semua tabel akan dibuat otomatis
+2. Buka **phpMyAdmin** =`http://localhost/phpmyadmin`
+3. Klik **Import** = pilih file `database.sql`
+4. Klik **Go** = database `rental_mobil` dan semua tabel akan dibuat otomatis
 
 ### 4. Buat File Konfigurasi Database
 
@@ -167,7 +165,7 @@ http://localhost/rental-mobil/
 | Konfigurasi | `config.php` dipisah dan di-exclude dari Git via `.gitignore` |
 
 ---
-## 📱 Responsivitas
+## Responsivitas
 
 Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 
@@ -180,7 +178,7 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 
 ---
 
-## 📝 Spesifikasi Teknis (Sesuai UAS)
+## Spesifikasi Teknis (Sesuai UAS)
 
 ### Bootstrap
 - [x] Sistem grid Bootstrap (container, row, col-*)
@@ -191,7 +189,7 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 ### JavaScript
 - [x] Validasi form minimal 2 field sebelum submit
 - [x] `confirm()` sebelum hapus data
-- [x] Manipulasi DOM — pesan error inline
+- [x] Manipulasi DOM pesan error inline
 - [x] `addEventListener` (scroll, input, change, submit)
 
 ### PHP & Database
@@ -210,13 +208,12 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 | **Nama** | Zalfa Ajeng Suardafa |
 | **NIM** | 25/568990/SV/27577 |
 | **Prodi** | Teknologi Rekayasa Perangkat Lunak |
-| **Universitas** | Universitas Gadjah Mada — Sekolah Vokasi |
+| **Universitas** | Universitas Gadjah Mada Sekolah Vokasi |
 | **Mata Kuliah** | Praktikum Pemrograman Web 1 (SVPL214208) |
 | **Dosen** | Achmad Choirudin Emcha, S.Kom., M.Eng. |
 
 ---
 
-## Video Demo (Opsional +5 poin)
-
+## Video Demo
 > Link video demo: https://youtu.be/57mO1SF1uww?si=JcH3y-Zw2uuv-Zkb  
 ---
