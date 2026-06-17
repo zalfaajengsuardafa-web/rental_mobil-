@@ -1,6 +1,6 @@
-# 🚗 RentWheels — Sistem Manajemen Rental Mobil
+# RentWheels (Sistem Manajemen Rental Mobil)
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 Aplikasi web **Rental Mobil** berbasis PHP Native yang digunakan untuk mengelola data
 mobil, pelanggan, dan transaksi penyewaan. Aplikasi ini mendukung fitur
@@ -12,9 +12,9 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester Praktikum Pemrograman We
 
 ---
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
-### 🔐 Autentikasi
+### Autentikasi
 - Login menggunakan **PHP Session** (`session_start()`)
 - Password terenkripsi dengan **bcrypt** (`password_hash()` & `password_verify()`)
 - Redirect otomatis jika belum login
@@ -79,12 +79,12 @@ rental-mobil/
 
 ---
 
-## ⚙️ Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/rental-mobil.git
+git clone https://github.com/zalfaajengsuardafa-web/rental_mobil-.git  
 ```
 
 ### 2. Pindahkan ke Folder Server
@@ -136,26 +136,26 @@ http://localhost/rental-mobil/
 
 ---
 
-## 📸 Screenshot Aplikasi
+## Screenshot Aplikasi
 
-### 🏠 Halaman Beranda
+### Halaman Beranda
 ![Halaman Beranda](assets/img/beranda.JPG)
 
-### 📋 Halaman Daftar Data Mobil
+### Halaman Daftar Data Mobil
 ![Daftar Data](assets/img/data_mobil.JPG)
 
-### ➕ Form Tambah Data
+### Form Tambah Data
 ![Form Tambah](assets/img/tambah_data.JPG)
 
-### ✏️ Form Edit Data
+### Form Edit Data
 ![Form Edit](assets/img/edit.JPG)
 
-### 📱 Tampilan Mobile (375px)
+### Tampilan Mobile (375px)
 ![Mobile View](assets/img/mobile.JPG)
 
 ---
 
-## 🔒 Keamanan
+## Keamanan
 
 | Fitur | Implementasi |
 |-------|-------------|
@@ -182,19 +182,19 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 
 ## 📝 Spesifikasi Teknis (Sesuai UAS)
 
-### ✅ Bootstrap
+### Bootstrap
 - [x] Sistem grid Bootstrap (container, row, col-*)
 - [x] Navbar responsif dengan collapse di mobile
 - [x] Komponen: Card, Button, Badge, Alert, Modal, Pagination
 - [x] Layout tidak rusak di 375px s.d. 1440px
 
-### ✅ JavaScript
+### JavaScript
 - [x] Validasi form minimal 2 field sebelum submit
 - [x] `confirm()` sebelum hapus data
 - [x] Manipulasi DOM — pesan error inline
 - [x] `addEventListener` (scroll, input, change, submit)
 
-### ✅ PHP & Database
+### PHP & Database
 - [x] `htmlspecialchars()` pada seluruh output
 - [x] `password_hash()` / `password_verify()`
 - [x] `session_start()` untuk autentikasi
@@ -203,7 +203,7 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 | | |
 |-|-|
@@ -216,7 +216,7 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 
 ---
 
-## 🎥 Video Demo (Opsional +5 poin)
+## Video Demo (Opsional +5 poin)
 
-> Link video demo: 
+> Link video demo: https://youtu.be/57mO1SF1uww?si=JcH3y-Zw2uuv-Zkb  
 ---
