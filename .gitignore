@@ -1,0 +1,76 @@
+# ============================================================
+# .gitignore — Rental Mobil (RentWheels)
+# ============================================================
+
+# ── Konfigurasi database (JANGAN DI-PUSH ke GitHub!) ──────
+includes/config.php
+
+# ── File sensitif & environment ───────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Folder vendor / dependency PHP ────────────────────────
+vendor/
+composer.phar
+
+# ── Folder node_modules (jika ada) ────────────────────────
+node_modules/
+
+# ── Cache & temporary files ───────────────────────────────
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*~
+
+# ── Log files ─────────────────────────────────────────────
+*.log
+logs/
+php_errors.log
+error_log
+
+# ── Upload files (opsional, hapus jika ingin push gambar) ─
+# assets/img/upload/
+
+# ── MacOS system files ────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows system files ──────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── IDE & Editor files ────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+nbproject/
+
+# ── PHPStorm ──────────────────────────────────────────────
+.phpunit.result.cache
+.php_cs
+.php-cs-fixer.cache
+
+# ── XAMPP / Laragon specific ──────────────────────────────
+error_log
+access_log
+
+# ── ZIP backup files (jangan push backup ke repo) ─────────
+*.zip
+*.tar.gz
+*.rar
+
+# ── Screenshot folder jika pakai subfolder uploads ────────
+# screenshots/
