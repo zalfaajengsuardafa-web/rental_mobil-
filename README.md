@@ -139,19 +139,19 @@ http://localhost/rental-mobil/
 ## 📸 Screenshot Aplikasi
 
 ### 🏠 Halaman Beranda
-![Halaman Beranda](assets/img/beranda.jpg)
+![Halaman Beranda](assets/img/beranda.JPG)
 
 ### 📋 Halaman Daftar Data Mobil
-![Daftar Data](assets/img/data_mobil.jpg)
+![Daftar Data](assets/img/data_mobil.JPG)
 
 ### ➕ Form Tambah Data
-![Form Tambah](assets/img/tambah_data.jpg)
+![Form Tambah](assets/img/tambah_data.JPG)
 
 ### ✏️ Form Edit Data
-![Form Edit](assets/img/edit.jpg)
+![Form Edit](assets/img/edit.JPG)
 
 ### 📱 Tampilan Mobile (375px)
-![Mobile View](assets/img/mobile.jpg)
+![Mobile View](assets/img/mobile.JPG)
 
 ---
 
@@ -210,13 +210,13 @@ Dirancang dengan Bootstrap 5 Grid sehingga tampil baik di:
 | **Nama** | Zalfa Ajeng Suardafa |
 | **NIM** | 25/568990/SV/27577 |
 | **Prodi** | Teknologi Rekayasa Perangkat Lunak |
-| **Universitas** | Universitas Gadjah Mada Sekolah Vokasi |
+| **Universitas** | Universitas Gadjah Mada — Sekolah Vokasi |
 | **Mata Kuliah** | Praktikum Pemrograman Web 1 (SVPL214208) |
 | **Dosen** | Achmad Choirudin Emcha, S.Kom., M.Eng. |
 
 ---
 
-## 🎥 Video Demo
+## 🎥 Video Demo (Opsional +5 poin)
 
-> Link video demo: https://youtu.be/57mO1SF1uww?si=JcH3y-Zw2uuv-Zkb 
+> Link video demo: 
 ---
