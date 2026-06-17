@@ -157,11 +157,11 @@ http://localhost/rental-mobil/
 
 | Fitur | Implementasi |
 |-------|-------------|
-| XSS Prevention | `htmlspecialchars()` pada seluruh output user-input (134 penggunaan) |
-| Password | `password_hash()` — bcrypt, bukan MD5 |
+| XSS Prevention | `htmlspecialchars()` pada seluruh output user input (134 penggunaan) |
+| Password | `password_hash()` bcrypt, bukan MD5 |
 | Verifikasi | `password_verify()` |
 | Session | `session_start()` + auth_check di semua halaman protected |
-| SQL Injection | Prepared statement (`prepare()` + `bind_param()`) — 102 penggunaan |
+| SQL Injection | Prepared statement (`prepare()` + `bind_param()`) 102 penggunaan |
 | Konfigurasi | `config.php` dipisah dan di-exclude dari Git via `.gitignore` |
 
 ---
